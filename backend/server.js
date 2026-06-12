@@ -21,9 +21,10 @@ const allowedOrigins = [
   'http://localhost:5174',
   'http://localhost:5175',
   'http://localhost:3000',
+  'https://ecommerce-app-nine-mu.vercel.app',
+  'https://ecommerce-1ttg4vsbe-tirh-mistry-s-projects.vercel.app',
   process.env.FRONTEND_URL
 ];
-
 app.use(cors({
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.includes(origin)) {
