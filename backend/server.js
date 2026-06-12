@@ -22,7 +22,7 @@ const allowedOrigins = [
   'http://localhost:5175',
   'http://localhost:3000',
   'https://ecommerce-app-nine-mu.vercel.app',
-  'https://ecommerce-1ttg4vsbe-tirh-mistry-s-projects.vercel.app',
+  'https://ecommerce-pm8k4hrge-tirh-mistry-s-projects.vercel.app',
   process.env.FRONTEND_URL
 ];
 app.use(cors({
