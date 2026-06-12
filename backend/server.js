@@ -48,6 +48,9 @@ app.use('/api/orders', orderRoutes);
 app.get('/api/health', (req, res) => {
   res.status(200).json({ success: true, message: 'Backend is running' });
 });
+app.get('/', (req, res) => {
+  res.send('Shopping Cart Backend is running');
+});
 
 // 404 handler
 app.use((req, res) => {
